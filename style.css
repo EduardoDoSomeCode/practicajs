@@ -6,4 +6,8 @@ body{
 }
 #name{
     color: black;
+    font-size: 3rem;
+    padding: 1rem;
+    background-color: rgb(39, 39, 49);
+    border-radius: 10px;
 }
