@@ -11,8 +11,18 @@ function randomNames() {
     let greetingDisplay = document.querySelector("#greeting")
     greetingDisplay.innerHTML = greettingOfTheDay[Math.floor(Math.random() * greettingOfTheDay.length)]
 
-    console.log("Todo esta bien")
 
+    giveRandomNumber()
+
+    console.log("Another function")
+    
+
+}
+
+function giveRandomNumber (){
+    const emojis = ["😄", "🍕", "☢️", "🎶"]
+    let greetingDisplay = document.querySelector("#emoji")
+    greetingDisplay.innerHTML = emojis[Math.floor(Math.random() * emojis.length)]
 }
 
 randomNames()
